@@ -35,3 +35,13 @@ function addProduct() {
 
 // Add event listener to the "Add to Wishlist" button
 addProductButton.addEventListener('click', addProduct);
+
+function removeProduct(productId) {
+    // Find the product element by its ID
+    var product = document.getElementById(productId);
+    
+    // Remove the product element from the wishlist
+    if (product) {
+        product.remove();
+    }
+}
