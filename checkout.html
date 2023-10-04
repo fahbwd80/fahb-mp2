@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Complete your purchase</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><h1 class="logo"><img src="Images/LOGO-Wardrobe Manila.png" alt="logo" class="logo-picture"></h1></a>
+        <br>
+        <ul class="menu-container">
+            <a href="index.html"><li class="menu-item">Home</li></a>
+            <li class="menu-item">Collections</li>
+            <li class="menu-item">Products</li>
+            <li class="menu-item red">For Sale</li>
+        </ul>
+        <div class="menu-icons-container">
+           <a href="#"><li><i class="fa-solid fa-magnifying-glass"></i></li></a>
+           <a href="#"><li><i class="fa-solid fa-user"></i></li></a> 
+           <li><i class="fa-solid fa-cart-shopping"></i></li>
+        </div>
+    </header>
+
+    <div class="progress-checkout-container">
+        <div class="progress-step-container">
+            <div class="step-check"></div>
+            <span class="step-title">Payment</span>
+        </div>
+        <div class="progress-step-container">
+            <div class="step-check"></div>
+            <span class="step-title">Billing Address</span>
+        </div>
+        <div class="progress-step-container">
+            <div class="step-check"></div>  
+            <span class="step-title">Review</span>
+        </div>
+    </div>
+    
+    <div class="form-container">
+        <h2 class="form-title">Payment Details</h2>
+        <form action="" class="checkout-form">
+            <div class="input-line">
+                <label for="name">Name on card</label>
+                <input type="text" name="name" id="name" placeholder="Your name and surname">
+            </div>
+            <div class="input-line">
+                <label for="name">Contact Number</label>
+                <input type="text" name="name" id="name" placeholder="Tel/Phone no." maxlength="13">
+            </div>
+            <div class="input-line">
+                <label for="name">Card number</label>
+                <input type="text" name="name" id="name" placeholder="1111-2222-3333-4444">
+            </div>
+            <div class="input-container">
+                <div class="input-line">
+                    <label for="name">Expiration Date</label>
+                    <input type="text" name="name" id="name" placeholder="09-21">
+                </div>
+                <div class="input-line">
+                    <label for="name">CVV</label>
+                    <input type="text" name="name" id="name" placeholder="***">
+                </div>
+            </div>
+            <input type="submit" value="Complete purchase" class="purchase-btn">
+        </form>
+    </div>
+    
+
+    <script src="checkout.js"></script>
+</body>
+</html>

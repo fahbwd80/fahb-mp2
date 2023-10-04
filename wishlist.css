@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/bg-wardrobeManila.png');
+}
+
+h1 {
+    color: #000;
+    padding: 20px;
+    margin: 0;
+}
+header .navbar {
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+header .navbar img {
+    width: 350px;
+}
+.wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.wishlist img {
+    width: 350px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {  
+    max-width: 50%;
+    height: 50%;
+}
+
+.remove-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.add-product {
+    text-align: center;
+    margin: 20px;
+}
+
+#product-name,
+#product-price {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+#add-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer section */
+
+.footer {
+    grid-area: footer;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-top{
+    background-image: url('Images/footer-top\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 100px;
+    padding-left: 100px;
+    /* padding-left: 800px; */
+    
+  }
+  
+  .footer-bottom{
+    background-color: #333333;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  
+  /* Footer-top */
+  .input-signup{
+    display: flex;
+    justify-content:right;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    /* margin-right: ; */
+    /* margin-left: 75px; */
+    /* padding-left: 45px;
+    padding-right: 45px; */
+  
+  }
+  
+  .input-signup h2{
+    font-family: 'Viga' , sans-serif;
+    color: #ffffff;
+  }
+  
+  #inputUserName{
+    border-radius: 0%;
+  }
+  
+  #inputEmailAdd{
+    border-radius: 0%;
+  }
+  
+  /* #btn-ctn{
+    border-radius: 0%;
+    background-color: #ffffff;
+  }
+  
+  #input-ctn{
+    border-radius: 0%;
+  } */
+  #inputPassword{
+    border-radius: 0;
+  }
+  
+  #btn-signup{
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    /* margin-left: 12px;
+    margin-right: 11px !important;
+    width: 440px; */
+  }
+  
+  /* Footer-bottom */
+  .row1-bottom ul{
+    list-style-type: none;
+  
+  }
+  
+  .row1-bottom li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: small;
+  }
+  .row2-bottom ul{
+    list-style-type: none;
+  }
+  .row2-bottom{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .row1-bottom h6 , p{
+    color: #ffffff;
+  }
+  
+  .social-links li{
+    display: inline-block;
+    /* justify-content: space-between; */
+    padding-left: 10px;
+  }
+  .social-links li i{
+    font-size: large;
+  }
+  
+  .ARR li{
+    font-size: small;
+  }
+  .ARR_underline{
+    text-decoration: underline;
+  }
+  
+  
+  .payment-links li{
+    display: inline-block;
+    padding-right: 20px;
+  }
+  .we_accept{
+    font-size: small;
+  }
+  .payment-links li i{
+    font-size: x-large;
+  }
+  

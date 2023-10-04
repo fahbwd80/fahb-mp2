@@ -17,12 +17,12 @@
         <header class="header">
             <nav class="nav_container">
                 <!-- sync logo to homepage inside href -->
-                <img class="logo" href= "index.html" src="Images/LOGO-Wardrobe Manila.png" alt="logo"> 
+                <a href="index.html"><img class="logo" href= "index.html" src="Images/LOGO-Wardrobe Manila.png" alt="logo"></a>
     
                 <!-- Navigation links for ... -->
                 <div>
                     <ul id="nav-links">
-                        <li><a class="btn btn-translucent" type="button" href="Men.html">Men</a></li>
+                        <li><a class="btn btn-translucent" type="button" href="Men.html">Men</a></li>   
                         <li><a class="btn btn-translucent" type="button" href="Women.html"><b>Women</b></a></li>
                         <li><a class="btn btn-translucent" type="button" href="Kid.html">Kids</a></li>
                     </ul>
@@ -31,9 +31,11 @@
                 <!-- Icon links-->
                 <div>
                     <ul id="icon-links">
-                        <li class="clickSearchIcon"><a href=""><img class="btn btn-translucent" type="button" src="Images/SVGs/search.svg" alt="SearchIcon"></a></li>
-                        <li><a href=""><img class="btn btn-translucent" type="button" src="Images/SVGs/profile.svg" alt="Icon"></a></li>
-                        <li><a href="LoginForm.html"><img class="btn btn-translucent" type="button" src="Images/SVGs/heart-sign.svg"alt="Icon"></a></li>
+                        <li class="clickSearchIcon search-bar search-results">
+                            <input type="text" id="search-input" placeholder="Search products...">
+                            <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                        <li><a href="LoginForm.html"><img class="btn btn-translucent" type="button" src="Images/SVGs/profile.svg" alt="Icon"></a></li>
+                        <li><a href="wishlist.html"><img class="btn btn-translucent" type="button" src="Images/SVGs/heart-sign.svg"alt="Icon"></a></li>
                         <li><a href="addtocart2.html"><img class="btn btn-translucent" type="button" src="Images/SVGs/cart.svg"alt="Icon"></a></li>
                     </ul>
                 </div>

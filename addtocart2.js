@@ -1,6 +1,6 @@
 const product = [
     {
-        id: 0,
+        id: 0,  
         image: 'Images/Men/hoodie/black/black-hoodie-1.jpg',
         title: 'Hoodie',
         price: 5000,
@@ -105,3 +105,4 @@ function displaycart(a){
         }).join('')
     }
 }
+
